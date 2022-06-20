@@ -411,17 +411,21 @@ button {
     #img-1 {
         width: 214px;
         height: 202px;
+        display: none;
     }
 
     #img-2 {
         width: 170px;
         height: 177px;
-        margin-bottom: 11px;
+        margin-bottom: 6px;
+        border-radius: 89px;
+    border: 2px solid red;
     }
 
     .home-img {
         right: 89px;
         margin-top: -26em;
+        margin-right: 40px;
         /* display: none; */
     }
 
@@ -432,7 +436,7 @@ button {
     .home-description {
         margin-left: 14px;
         width: auto;
-        margin-right: 10px;
+        margin-right: 38px;
     }
     button {
         border: 2px solid #e96268;
@@ -454,10 +458,10 @@ button {
     }
 
     .about-image img {
-        width: 326px;
-        height: 317px;
+        width: 259px;
+        height: 243px;
         /* border: 2px solid white; */
-        border-radius: 44px;
+        border-radius: 191px;
     }
 
     .about-decription {
@@ -548,7 +552,7 @@ button {
     /* footer */
 
     .footer {
-        height: 110vh;
+        height: 123vh;
         display: flex;
         flex-direction: column;
     }
@@ -612,16 +616,29 @@ button {
         top: 502px;
     }
 
-    .hamberger{
-        height: 100px;
-        width: 100wh;
-        background-color: #FA4D56;
-       position: fixed;
-       margin-top: 100px;
-       display: none;
-    }
+    
     .item{
         display: flex;
         width: 100vw;
     }
+
+    /* hamberger */
+    .nav-berger{
+        height: 98px;
+        background-color: #FA4D56;
+       position: fixed; /* Set the navbar to fixed position */
+       bottom: 0; /* Position the navbar at the bottom of the page */
+       width: 100%;
+       box-shadow: 5px 10px 10px 10px #110f0f;
+       border-radius: 49px 49px 0px 0px;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       color: white;
+    }
+   .clk{
+    cursor: pointer;
+   }
+
 }
+
