@@ -397,6 +397,7 @@ button {
 @media only screen and (max-width: 600px) {
     .media-container {
         display: flex;
+        margin-top: 88px;
 
     }
 
@@ -417,14 +418,14 @@ button {
     #img-2 {
         width: 170px;
         height: 177px;
-        margin-bottom: 6px;
+        /* margin-bottom: -22px; */
         border-radius: 89px;
     border: 2px solid red;
     }
 
     .home-img {
         right: 89px;
-        margin-top: -26em;
+        margin-top: -24em;
         margin-right: 40px;
         /* display: none; */
     }
@@ -614,6 +615,8 @@ button {
         right: 8px;
         margin-top: 0px;
         top: 502px;
+        display: none;
+
     }
 
     
@@ -623,22 +626,61 @@ button {
     }
 
     /* hamberger */
-    .nav-berger{
-        height: 98px;
+      
+       
+    /* }.nav-berger{
+      
+       
+    } */
+    .hidden-berger{
+        height: 70px;
         background-color: #FA4D56;
        position: fixed; /* Set the navbar to fixed position */
        bottom: 0; /* Position the navbar at the bottom of the page */
        width: 100%;
        box-shadow: 5px 10px 10px 10px #110f0f;
-       border-radius: 49px 49px 0px 0px;
-       display: flex;
-       justify-content: space-around;
-       align-items: center;
-       color: white;
+       border-radius: 32px 32px 0px 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+
+        
     }
    .clk{
     cursor: pointer;
    }
+   .open-berger{
+    height: 160px;
+    background-color: #FA4D56;
+   position: fixed; /* Set the navbar to fixed position */
+   bottom: 0; /* Position the navbar at the bottom of the page */
+   width: 100%;
+   box-shadow: 5px 10px 10px 10px #110f0f;
+   border-radius: 32px 32px 0px 0px;
+    display: none;
+flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+   }
+   .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+
+   }
+   .berger-item{
+    padding: 10px;
+    margin: 10px 5px 2px 46px;   
+   }
+   .berger-item a{
+    color: white;
+    font-weight: bold;
+   }
+
 
 }
 
