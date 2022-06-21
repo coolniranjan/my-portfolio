@@ -4,7 +4,6 @@ v.addEventListener("click",function(){
   console.log("cliked")
   let b=document.getElementById("brger");
   b.style.display="flex";
-//   b.style.flex-wrap="wrap";
   
 })
 let c=document.getElementById("cross");

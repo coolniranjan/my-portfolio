@@ -29,7 +29,7 @@
             <li class="list-item"><a href="#ctn">HireMe</a></li>
         </ul>
     </nav>
-    <nav class="nav-berger">
+    <div class="nav-berger">
         <div class="hidden-berger">
             <div>
                 <h2>Niranjan</h2>
@@ -44,14 +44,14 @@
                 <li class="berger-item"><a href="#skl"><i class="uil uil-file">Skill</i></a></li>
             </ul>
             <ul class="item">
-                <li class="berger-item"><a href="#ctn"><i class="uil uil-file"></i>Project</a></li>
+                <li class="berger-item"><a href="#prjct"><i class="uil uil-file"></i>Project</a></li>
                 <li class="berger-item"><a href="#ctn"><i class="uil uil-user-location"></i>Contact</a></li>
-                <li class="berger-item"><i class="uil uil-brightness"></i>Mode</li>
-               
+                <!-- <li class="berger-item"><i class="uil uil-brightness"></i>Mode</li> -->
+                <li class="berger-item" id="cross"><i class="uil uil-times"></i>Back</li>
+
             </ul>
-            <div class="berger-item" id="cross"><i class="uil uil-times"></i></div>
         </div>
-    </nav>
+    </div>
 
 
 
@@ -72,7 +72,7 @@
                 <h3>Frontend Developer</h3>
                 <br>
                 <p>High level experience in web desgin and development knowledge, producing quality work.</p>
-                <button id="btn1">contact me</button>
+                <button id="btn1"><a id="clr" href="#ctn">Contact</a> </button>
             </div>
             <div class="home-img">
                 <img id="img-1" src="./img/blob.svg" alt="">
@@ -198,7 +198,7 @@
                             placeholder="Name">
                         <input data-aos="zoom-in-left" data-aos-duration="1000" type="email" name="" id=""
                             placeholder="Email">
-                        <input data-aos="zoom-in-left" data-aos-duration="1000" id="contact-msg" type="text"
+                        <input data-aos="zoom-in-left" data-aos-duration="1000" id="contact-msg" type="text-box"
                             placeholder="Message">
                         <button data-aos="zoom-in-left" data-aos-duration="1000">Send Message <i
                                 class="uil uil-message"></i></button>
