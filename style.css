@@ -35,9 +35,7 @@ button {
 
 
 /* ================ navbar ================= */
-.nav-berger{
-    display: none;
-}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -405,10 +403,6 @@ button {
 
     }
 
-    .main-contant {
-        /* height: 100vh; */
-    }
-
     .navbar {
         display: none;
     }
@@ -429,7 +423,7 @@ button {
 
     .home-img {
         right: 89px;
-        margin-top: -389px;
+        margin-top: -320px;
         margin-right: 40px;
         /* display: none; */
     }
@@ -577,6 +571,7 @@ button {
 
     .designed h2 {
         margin: 10px;
+        font-size: 21px;
     }
 
     .designed p {
@@ -613,6 +608,10 @@ button {
     }
     .follow h2{
         font-size: 24px;
+    }
+    .follow a{
+        color: white;
+        padding: 9px;
     }
 /* upward button */
    .stiky a{
@@ -696,3 +695,8 @@ flex-wrap: wrap;
   }
 }
 
+@media only screen and (min-width: 600px) {
+.nav-berger{
+    display: none;
+}
+}
